@@ -42,28 +42,21 @@ const tagline = document.getElementById("tagline");
 tagline.textContent = "Same recipes, worse parking."
 
 
-function status(status) {
-
-  let truckStatus = document.getElementById("status")
-
-  if (truckStatus == false) {
-    status.textContent = "Open now";
-    status.classList.remove("closed");
-  }
-
-  status.textContent = "Sold out for today.";
-  status.classList.add("closed");
 
 
 
+ const statusLine = document.getElementById("closed");
 
+ 
 
+ console.log(statusLine);
 
-
+if (truck.soldOut == true);
+  {
+     statusLine.textContent = "Sold out for today"
 }
 
-
-
+statusLine.textContent = "Open now"
 
 const phone = document.getElementById("phone");
 
@@ -132,4 +125,40 @@ friday.textContent =  "Friday";
 const victory = document.getElementById("location5");
 
 victory.textContent = "Victory Park, until we run out";
+
+
+
+
+
+const crew1 = document.getElementById("crew-list");
+
+const firstItem = document.createElement("li");
+
+console.log(firstItem);
+
+firstItem.textContent = "Marisol";
+
+crew1.appendChild(firstItem);
+
+
+const crew2 = document.getElementById("crew-list");
+
+const secondItem = document.createElement("li");
+
+console.log(secondItem);
+
+secondItem.textContent = "Big Kevin";
+
+crew2.appendChild(secondItem);
+
+
+const crew3 = document.getElementById("crew-list");
+
+const thirdItem = document.createElement("li");
+
+console.log(thirdItem);
+
+thirdItem.textContent = "Darnell";
+
+crew3.appendChild(thirdItem);
 
