@@ -1,3 +1,6 @@
+Reviewer: Zackary Santos
+Review: Code shows up on webpage however the styles in styles.css arent showing
+
 # Jose's Taco Truck
 
 Isaiah's truck has competition. Jose has a truck now, and he has a page for it, except nothing on the page says anything yet.
